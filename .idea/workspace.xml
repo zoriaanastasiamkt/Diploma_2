@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a77c2c7-bbe5-4155-a348-614d697477a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,29 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.OrderTest (1).executor": "Debug",
-    "JUnit.OrderTest.createOrderWithInvalidIngredientHashTest.executor": "Run",
-    "JUnit.OrderTest.executor": "Run",
-    "JUnit.UserCreationTest.createDuplicateUserTest.executor": "Run",
-    "JUnit.UserCreationTest.createUniqueUserTest.executor": "Run",
-    "JUnit.UserCreationTest.createUserWithoutEmailTest.executor": "Run",
-    "JUnit.UserCreationTest.createUserWithoutNameTest.executor": "Run",
-    "JUnit.UserCreationTest.createUserWithoutPasswordTest.executor": "Debug",
-    "JUnit.UserCreationTest.executor": "Run",
-    "JUnit.UserLoginTest.executor": "Run",
-    "JUnit.UserTest (1).executor": "Run",
-    "JUnit.UserTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop2",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.OrderTest (1).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.OrderTest.createOrderWithInvalidIngredientHashTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserCreationTest.createDuplicateUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserCreationTest.createUniqueUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserCreationTest.createUserWithoutEmailTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserCreationTest.createUserWithoutNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserCreationTest.createUserWithoutPasswordTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.UserCreationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop2&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
