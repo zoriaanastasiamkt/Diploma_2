@@ -28,14 +28,14 @@ public class UserLoginTest extends BaseApiTest {
         String randomPassword = faker.internet().password(6, 12);
 
         genericUser = new UserModel(randomName, randomEmail, randomPassword);
+
+        accessToken = createUser(genericUser).path("accessToken");
     }
 
     @Test
     @DisplayName("Вход под существующим пользователем")
     @Description("Позитивный сценарий — успешный логин с валидными учетными данными")
     public void loginExistingUserTest() {
-        accessToken = createUser(genericUser).path("accessToken");
-
         Response loginResponse = loginUser(genericUser);
 
         loginResponse.then()
@@ -48,6 +48,7 @@ public class UserLoginTest extends BaseApiTest {
     @DisplayName("Вход с несуществующим логином (email)")
     @Description("Негативный сценарий — попытка авторизации с почтой, которой нет в системе")
     public void loginWithNonexistentEmailTest() {
+        // генерация несуществующих данных из библиотеки Java Faker
         UserModel nonexistentUser = new UserModel("FakeName", faker.internet().emailAddress(), "anyPassword123");
 
         Response response = loginUser(nonexistentUser);
@@ -62,8 +63,6 @@ public class UserLoginTest extends BaseApiTest {
     @DisplayName("Вход с неверным паролем")
     @Description("Негативный сценарий — пытаемся войти под существующим email, но с ошибочным паролем")
     public void loginWithIncorrectPasswordTest() {
-        accessToken = createUser(genericUser).path("accessToken");
-
         UserModel userWithWrongPassword = new UserModel(genericUser.getName(), genericUser.getEmail(), "wrong_password_123");
 
         Response response = loginUser(userWithWrongPassword);
